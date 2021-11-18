@@ -1,9 +1,9 @@
 {
-    "defaultCommandTimeout": 25000,
+    "defaultCommandTimeout": 40000,
     "pageLoadTimeout": 150000,
     "testFiles": "**/*.feature",
     "fixturesFolder": "cypress/data-files",
-    "supportFile": "cypress/cns-common",
+    "supportFile": "cypress/cargoes-common",
     "requestTimeout": 120000,
     "responseTimeout": 120000,
     "video": true,

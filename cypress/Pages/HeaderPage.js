@@ -3,22 +3,15 @@
 
 /**
  * @author Zeeshan Asghar
- * Dated: 28/10/2021
+ * Dated: 16/11/2021
  */
 
 class Header {
   /**
-   * Hovers on Manage link in menu
+   * clicks on declaration in menu
    */
-  clickManage() {
-    cy.get("#dtNavbar a[data-i18n='menuManage']").realHover();
-  }
-
-  /**
-   * clicks on chief declaration in menu
-   */
-  clickChiefDeclarations() {
-    cy.xpath("//div[@id='dtNavbar']//ul//a[normalize-space()='CHIEF Declarations']").click();
+  clickDeclarations() {
+    cy.get("li[id='ics-declaration.menu']").click();
   }
 }
 export default Header;

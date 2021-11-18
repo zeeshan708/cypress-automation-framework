@@ -1,3 +1,4 @@
+/* eslint-disable no-undef */
 // ***********************************************************
 // This example support/index.js is processed and
 // loaded automatically before your test files.
@@ -18,5 +19,12 @@ import "./commands";
 import "cypress-real-events/support";
 
 require("cypress-xpath");
-// Alternatively you can use CommonJS syntax:
-// require('./commands')
+
+Cypress.on(
+  "uncaught:exception",
+  // eslint-disable-next-line no-unused-vars
+  (err, runnable) =>
+    // returning false here prevents Cypress from
+    // failing the test
+    false
+);

@@ -1,7 +1,8 @@
 {
     "env": {
-        "app-url": "https://cnsdev.mawani.trade/",
-        "username": "customukadmin",
-        "password": "Admin@1234"
+        "app-url": "https://customsuat.cargoes.com/",
+        "username": "",
+        "password": ""
+
     }
 }

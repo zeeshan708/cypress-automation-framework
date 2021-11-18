@@ -5,24 +5,19 @@ import Login from "../../../../Pages/LoginPage";
 
 const login = new Login();
 
-// enter credentials
-function enterCredentials(datatable) {
-  datatable.hashes().forEach((element) => {
-    login.enterUserName(element.username);
-    login.enterPassword(element.password);
-  });
-}
-
 Given("I go to application", () => {
   cy.log(Cypress.env("app-url"));
   cy.visit(Cypress.env("app-url"));
 });
 
-When("I enter valid credentials", enterCredentials);
+When("I enter valid credentials", () => {
+  login.enterUserName(Cypress.env("username"));
+  login.enterPassword(Cypress.env("password"));
+});
 And("I click on login button", () => {
   login.clickLoginButton();
 });
 
 Then("Application home page opens successfully", () => {
-  cy.url().should("include", "/common/landing");
+  cy.url().should("include", "/app/landing");
 });
