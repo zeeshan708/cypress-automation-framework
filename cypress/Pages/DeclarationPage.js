@@ -43,11 +43,8 @@ class Declaration {
   /**
    * type declaration number
    */
-  typeDeclarationNumber() {
-    cy.readFile("cypress/data-files/dynamic-data/dynamic-data.json").then((obj) => {
-      const dynamicData = obj;
-      this.getDeclarationNumber().type(dynamicData.registrationNumber);
-    });
+  typeDeclarationNumber(registrationNumber) {
+    this.getDeclarationNumber().type(registrationNumber);
   }
 
   /**

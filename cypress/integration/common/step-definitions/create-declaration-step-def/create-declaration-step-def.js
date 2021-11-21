@@ -22,7 +22,7 @@ And("Declaration page opens up successfully", () => {
 });
 
 When("I search existing declaration by registration number", () => {
-  declaration.typeDeclarationNumber();
+  declaration.typeDeclarationNumber(Cypress.env("registrationNumber"));
   declaration.clickSearchButton();
 });
 

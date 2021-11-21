@@ -1,5 +1,5 @@
 {
-    "defaultCommandTimeout": 40000,
+    "defaultCommandTimeout": 60000,
     "pageLoadTimeout": 150000,
     "testFiles": "**/*.feature",
     "fixturesFolder": "cypress/data-files",

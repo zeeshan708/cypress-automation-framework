@@ -2,6 +2,7 @@
   "env": {
     "app-url": "https://customsuat.cargoes.com/",
     "username": "",
-    "password": ""
+    "password": "",
+    "registrationNumber": "202111280401"
   }
 }
