@@ -1,0 +1,132 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "Create Declaration",
+    "line": 6,
+    "id": "create-declaration",
+    "tags": [],
+    "uri": "create-declaration.feature",
+    "elements": [
+      {
+        "id": "create-declaration;verify-that-user-is-able-to-submit-declaration-by-copy-to-new",
+        "keyword": "Scenario",
+        "line": 15,
+        "name": "Verify that user is able to submit declaration by copy to new",
+        "tags": [
+          {
+            "name": "@create-declaration",
+            "line": 14
+          },
+          {
+            "name": "@smoke-front-end",
+            "line": 14
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 9,
+            "name": "I go to application",
+            "result": {
+              "status": "passed",
+              "duration": 3913000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 10,
+            "name": "I enter valid credentials",
+            "result": {
+              "status": "failed",
+              "error_message": "AssertionError: Timed out retrying after 60000ms: Expected to find element: `input[placeholder='Username']`, but never found it.\n    at Login.enterUserName (https://customsuat.cargoes.com/__cypress/tests?p=cypress\\integration\\features\\create-declaration\\create-declaration.feature:209:10)\n    at Context.eval (https://customsuat.cargoes.com/__cypress/tests?p=cypress\\integration\\features\\create-declaration\\create-declaration.feature:293:9)\n    at Context.resolveAndRunStepDefinition (https://customsuat.cargoes.com/__cypress/tests?p=cypress\\integration\\features\\create-declaration\\create-declaration.feature:12640:9)\n    at Context.eval (https://customsuat.cargoes.com/__cypress/tests?p=cypress\\integration\\features\\create-declaration\\create-declaration.feature:11969:35)"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 11,
+            "name": "I click on login button",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 12,
+            "name": "Application home page opens successfully",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 16,
+            "name": "I click on declarations button in header menu",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 17,
+            "name": "Declaration page opens up successfully",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 18,
+            "name": "I search existing declaration by registration number",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 19,
+            "name": "I click on copy to new button",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 20,
+            "name": "I click on history button",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 21,
+            "name": "I click on submit button to submit declaration",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 22,
+            "name": "Declaration should be submitted successfully",
+            "result": {
+              "status": "skipped"
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

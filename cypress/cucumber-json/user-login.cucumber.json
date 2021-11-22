@@ -1,0 +1,75 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "User Login",
+    "line": 6,
+    "id": "user-login",
+    "tags": [],
+    "uri": "user-login.feature",
+    "elements": [
+      {
+        "id": "user-login;verify-that-user-is-able-to-login-in-the-application-on-entring-valid-credentials",
+        "keyword": "Scenario",
+        "line": 8,
+        "name": "Verify that user is able to login in the application on entring valid credentials",
+        "tags": [
+          {
+            "name": "@user-login",
+            "line": 7
+          },
+          {
+            "name": "@smoke-front-end",
+            "line": 7
+          },
+          {
+            "name": "@regression",
+            "line": 7
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 9,
+            "name": "I go to application",
+            "result": {
+              "status": "passed",
+              "duration": 3913000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 10,
+            "name": "I enter valid credentials",
+            "result": {
+              "status": "passed",
+              "duration": 1427000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 11,
+            "name": "I click on login button",
+            "result": {
+              "status": "passed",
+              "duration": 117000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 12,
+            "name": "Application home page opens successfully",
+            "result": {
+              "status": "passed",
+              "duration": 8145000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

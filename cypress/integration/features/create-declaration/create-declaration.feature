@@ -11,7 +11,7 @@ Feature: Create Declaration
         And   I click on login button
         Then  Application home page opens successfully
 
-    @create-declaration
+    @create-declaration @smoke-front-end
     Scenario: Verify that user is able to submit declaration by copy to new
         Given I click on declarations button in header menu
         And   Declaration page opens up successfully
