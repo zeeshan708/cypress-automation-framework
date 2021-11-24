@@ -31,7 +31,7 @@
             "name": "I go to application",
             "result": {
               "status": "passed",
-              "duration": 3913000000
+              "duration": 5433000000
             }
           },
           {
@@ -40,8 +40,8 @@
             "line": 10,
             "name": "I enter valid credentials",
             "result": {
-              "status": "failed",
-              "error_message": "AssertionError: Timed out retrying after 60000ms: Expected to find element: `input[placeholder='Username']`, but never found it.\n    at Login.enterUserName (https://customsuat.cargoes.com/__cypress/tests?p=cypress\\integration\\features\\create-declaration\\create-declaration.feature:209:10)\n    at Context.eval (https://customsuat.cargoes.com/__cypress/tests?p=cypress\\integration\\features\\create-declaration\\create-declaration.feature:293:9)\n    at Context.resolveAndRunStepDefinition (https://customsuat.cargoes.com/__cypress/tests?p=cypress\\integration\\features\\create-declaration\\create-declaration.feature:12640:9)\n    at Context.eval (https://customsuat.cargoes.com/__cypress/tests?p=cypress\\integration\\features\\create-declaration\\create-declaration.feature:11969:35)"
+              "status": "passed",
+              "duration": 2695000000
             }
           },
           {
@@ -50,7 +50,8 @@
             "line": 11,
             "name": "I click on login button",
             "result": {
-              "status": "skipped"
+              "status": "passed",
+              "duration": 206000000
             }
           },
           {
@@ -59,7 +60,8 @@
             "line": 12,
             "name": "Application home page opens successfully",
             "result": {
-              "status": "skipped"
+              "status": "passed",
+              "duration": 6175000000
             }
           },
           {
@@ -68,7 +70,8 @@
             "line": 16,
             "name": "I click on declarations button in header menu",
             "result": {
-              "status": "skipped"
+              "status": "passed",
+              "duration": 1292000000
             }
           },
           {
@@ -77,7 +80,8 @@
             "line": 17,
             "name": "Declaration page opens up successfully",
             "result": {
-              "status": "skipped"
+              "status": "passed",
+              "duration": 7163000000
             }
           },
           {
@@ -86,7 +90,8 @@
             "line": 18,
             "name": "I search existing declaration by registration number",
             "result": {
-              "status": "skipped"
+              "status": "passed",
+              "duration": 1314000000
             }
           },
           {
@@ -95,7 +100,8 @@
             "line": 19,
             "name": "I click on copy to new button",
             "result": {
-              "status": "skipped"
+              "status": "passed",
+              "duration": 2037000000
             }
           },
           {
@@ -104,7 +110,8 @@
             "line": 20,
             "name": "I click on history button",
             "result": {
-              "status": "skipped"
+              "status": "passed",
+              "duration": 18187000000
             }
           },
           {
@@ -113,7 +120,8 @@
             "line": 21,
             "name": "I click on submit button to submit declaration",
             "result": {
-              "status": "skipped"
+              "status": "passed",
+              "duration": 244000000
             }
           },
           {
@@ -122,7 +130,8 @@
             "line": 22,
             "name": "Declaration should be submitted successfully",
             "result": {
-              "status": "skipped"
+              "status": "passed",
+              "duration": 5962000000
             }
           }
         ]
