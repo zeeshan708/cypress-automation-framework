@@ -1,9 +1,6 @@
 node_modules
-screenshots
-videos
 cucumber-json
 cucumber-report
 cypress/cucumber-html-report.js
 cypress/report.js
 .eslintcache
-package-lock.json

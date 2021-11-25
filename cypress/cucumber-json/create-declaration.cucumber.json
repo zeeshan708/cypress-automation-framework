@@ -31,7 +31,7 @@
             "name": "I go to application",
             "result": {
               "status": "passed",
-              "duration": 5433000000
+              "duration": 10602000000
             }
           },
           {
@@ -41,7 +41,7 @@
             "name": "I enter valid credentials",
             "result": {
               "status": "passed",
-              "duration": 2695000000
+              "duration": 4617000000
             }
           },
           {
@@ -51,7 +51,7 @@
             "name": "I click on login button",
             "result": {
               "status": "passed",
-              "duration": 206000000
+              "duration": 201000000
             }
           },
           {
@@ -61,7 +61,7 @@
             "name": "Application home page opens successfully",
             "result": {
               "status": "passed",
-              "duration": 6175000000
+              "duration": 10873000000
             }
           },
           {
@@ -71,7 +71,7 @@
             "name": "I click on declarations button in header menu",
             "result": {
               "status": "passed",
-              "duration": 1292000000
+              "duration": 2801000000
             }
           },
           {
@@ -81,7 +81,7 @@
             "name": "Declaration page opens up successfully",
             "result": {
               "status": "passed",
-              "duration": 7163000000
+              "duration": 4901000000
             }
           },
           {
@@ -91,7 +91,7 @@
             "name": "I search existing declaration by registration number",
             "result": {
               "status": "passed",
-              "duration": 1314000000
+              "duration": 2455000000
             }
           },
           {
@@ -101,7 +101,7 @@
             "name": "I click on copy to new button",
             "result": {
               "status": "passed",
-              "duration": 2037000000
+              "duration": 1778000000
             }
           },
           {
@@ -111,7 +111,7 @@
             "name": "I click on history button",
             "result": {
               "status": "passed",
-              "duration": 18187000000
+              "duration": 19468000000
             }
           },
           {
@@ -121,7 +121,7 @@
             "name": "I click on submit button to submit declaration",
             "result": {
               "status": "passed",
-              "duration": 244000000
+              "duration": 713000000
             }
           },
           {
@@ -131,7 +131,7 @@
             "name": "Declaration should be submitted successfully",
             "result": {
               "status": "passed",
-              "duration": 5962000000
+              "duration": 21754000000
             }
           }
         ]
