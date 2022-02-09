@@ -62,7 +62,7 @@ module.exports = (on, config) => {
     },
   }); // end of task
 
-  const file = config.env.fileConfig || "uat";
+  const file = config.env.fileConfig || "dev";
   const pathToConfigFile = path.resolve(__dirname, "../environments", `${file}.json`);
   console.log(pathToConfigFile);
 

@@ -9,4 +9,6 @@ Feature: User Login
         Given I go to application
         When  I enter valid credentials
         And I click on login button
-        Then Application home page opens successfully
+        And Application home page opens successfully
+        And I mark attendance
+        And I logout from application

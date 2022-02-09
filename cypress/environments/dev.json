@@ -1,8 +1,8 @@
 {
     "env": {
-        "app-url": "https://customsuat.cargoes.com/",
-        "username": "",
-        "password": "",
+        "app-url": "http://app.paypeople.pk/#/login",
+        "email": "greatzeeshan72@gmail.com",
+        "password": "zeeshan123",
         "registrationNumber": "202111287303"
 
     }

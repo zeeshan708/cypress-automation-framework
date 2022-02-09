@@ -35,7 +35,7 @@
             "name": "I go to application",
             "result": {
               "status": "passed",
-              "duration": 3913000000
+              "duration": 11974000000
             }
           },
           {
@@ -45,7 +45,7 @@
             "name": "I enter valid credentials",
             "result": {
               "status": "passed",
-              "duration": 1427000000
+              "duration": 1440000000
             }
           },
           {
@@ -55,17 +55,37 @@
             "name": "I click on login button",
             "result": {
               "status": "passed",
-              "duration": 117000000
+              "duration": 5260000000
             }
           },
           {
             "arguments": [],
-            "keyword": "Then ",
+            "keyword": "And ",
             "line": 12,
             "name": "Application home page opens successfully",
             "result": {
               "status": "passed",
-              "duration": 8145000000
+              "duration": 2178000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 13,
+            "name": "I mark attendance",
+            "result": {
+              "status": "failed",
+              "duration": 60240000000,
+              "error_message": "AssertionError: Timed out retrying after 60000ms: Expected to find element: `//span[contains(text(),'Clock Out')]`, but never found it.\n    at Login.marketAttendance (http://app.paypeople.pk/__cypress/tests?p=cypress\\integration\\features\\user-login\\user-login.feature:59:12)\n    at Context.eval (http://app.paypeople.pk/__cypress/tests?p=cypress\\integration\\features\\user-login\\user-login.feature:109:9)\n    at Context.resolveAndRunStepDefinition (http://app.paypeople.pk/__cypress/tests?p=cypress\\integration\\features\\user-login\\user-login.feature:12449:29)\n    at Context.eval (http://app.paypeople.pk/__cypress/tests?p=cypress\\integration\\features\\user-login\\user-login.feature:11781:35)"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 14,
+            "name": "I logout from application",
+            "result": {
+              "status": "skipped"
             }
           }
         ]

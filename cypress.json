@@ -3,7 +3,7 @@
     "pageLoadTimeout": 150000,
     "testFiles": "**/*.feature",
     "fixturesFolder": "cypress/data-files",
-    "supportFile": "cypress/cargoes-common",
+    "supportFile": "cypress/common",
     "requestTimeout": 120000,
     "responseTimeout": 120000,
     "video": true,
